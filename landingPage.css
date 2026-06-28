@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url(imagens/bg-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.banner__menu {
+    margin: .6em 0 0 .6em;
+}
+
+.banner__link {
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.7);
+    color: #fff;
+    font-size: .6em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    padding: .3em;
+    text-transform: capitalize;
+}
+
+.banner__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__title {
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.4em;
+    padding-top: 1.6em;
+}
+
+.banner__text {
+    color: #fff;
+    font-size: .8em;
+}
