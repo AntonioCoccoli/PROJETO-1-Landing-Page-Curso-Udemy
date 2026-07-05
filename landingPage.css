@@ -1,5 +1,5 @@
 :root {
-    --margin-default: .8em;
+    --margin-default: .5em;
 }
 
 body {
@@ -76,4 +76,22 @@ body {
     background-color: aliceblue;
     width: 90%;
     margin: var(--margin-default);
+}
+
+.card__title {
+    background-color: #ccc;
+    border-bottom: 2px solid gray;
+    padding: .4em;
+    margin-left: var(--margin-default);
+    margin-right: var(--margin-default);
+    text-transform: uppercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
