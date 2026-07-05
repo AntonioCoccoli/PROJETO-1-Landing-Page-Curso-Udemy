@@ -77,6 +77,7 @@ body {
 .content__card {
     background-color: aliceblue;
     width: 90%;
+    max-width: 1200px;
     margin: var(--margin-default);
 }
 
@@ -133,4 +134,59 @@ body {
     color: #fff;
     text-align: center;
     font-size: .8em;
+}
+
+@media (width > 440px) {
+    .banner {
+        height: 18em;
+    }
+}
+
+@media (width > 550px) {
+    .banner {
+        height: 24em;
+        background-position: center;
+    }
+    .banner__title {
+        font-size: 1.8em;
+    }
+    .banner__text {
+        font-size: .8em;
+    }
+    .banner__link {
+        font-size: .8em;
+
+    }
+
+    .banner__menu {
+        margin: .8em 0 0 .8em;
+    }
+}
+
+@media (width > 780px) {
+    .banner {
+        height: 30em;
+        background-position: top center;
+    }
+    .banner__title {
+        font-size: 2.2em;
+    }
+    .banner__text {
+        font-size: 1em;
+    }
+    .banner__link {
+        font-size: 1em;
+    }
+    .banner__menu {
+        margin: 1em 0 0 1em;
+    }
+    .card__title {
+        font-size: 1.4em;
+    }
+    .card__text {
+        font-size: 1em;
+    }
+    .card__link {
+        font-size: 1em;
+    }
 }
